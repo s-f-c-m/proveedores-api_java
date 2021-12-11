@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @RestController
 @AllArgsConstructor
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="*")
 @RequestMapping("api/v1/proveedores")
 public class ProveedorController {
 
